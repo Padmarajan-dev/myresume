@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Galada|Great+Vibes|Quicksand|Ubuntu+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bangers|Kite+One|Oleo+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab|Lobster+Two&display=swap');
+.side
+{
+	li
+	{
+		margin-top:6em;
+	 a 
+	 {
+	  color: #fff8f8;
+	  font-family:'Galada', cursive;
+	  font-size:1.4em;
+	  font-weight:bold;
+	 }
+	 button
+	 {
+		 border:2.1px solid white !important;
+		 border-radius:50%;
+		 font-size:2.1em;
+	 }
+	}
+	height:60em;
+	width:100%;
+	margin-top:-10em;
+	z-index:8;
+	opacity:0.8;
+}
+.skill-title
+{
+	color:rgb(218, 145, 145);
+}
+.skill-level-line
+{
+	height:0.5em;
+	border-radius:50px;
+}
+.top
+{
+	background:url('../images/parllel1.jpg');
+	color:white;
+	height:36em;
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center;
+}
+.portfolio-box
+{
+	height:18em;
+    .content
+	{
+		height:17em;
+		background-color: rgba(10, 3, 3, 0.418);
+		width:100% !important;
+		color:white;
+		button 
+		{
+			@extend %onlyborderbutton;	
+         &:hover
+	      {
+			box-shadow: (3px 3px 5px) black;
+			background-color: white;
+			color:black;
+	      }
+		}
+	}
+	&:hover
+	{
+		box-shadow: (3px 3px 5px) black;
+	}
+}
+
+.header
+	{
+		font-family:'Oleo Script', cursive;
+		font-weight: bolder;
+		font-size:40px;
+	}
+button
+{
+	background:none;
+	border:none;
+	color:white
+}
+#cv
+{
+	@extend %onlyborderbutton;
+	&:hover
+	{
+		background: rgb(211, 159, 63);
+	}
+}
+%onlyborderbutton
+{
+    background: none;
+    border: 2px solid white;
+    color:white;
+	border-radius: 50px;
+	height:3.8em;
+    font-weight:bold;
+}
+.education
+{
+	.yearspan
+	{
+		height:10em;
+		background-color: #378C3F;
+		p 
+		{
+			color:white;
+			font-family:'Galada', cursive;
+			font-size: x-large;
+		}
+	}
+	.AboutEducation
+	{
+		height:10em;
+		box-shadow: (3px,3px,4px)black;
+		background-color: white;
+		border:1px solid grey;
+		.title 
+		{
+			font-family: 'Lobster Two', cursive;
+			font-size:16px;
+		}
+		.desc
+		{
+			font-family: 'Josefin Slab', serif;
+		}
+	}
+}
+.mail-box
+{
+	height:24em;
+	border:1px solid grey;
+	border-radius:5px;
+    box-shadow:(2px,2px,4px)grey;
+	input[type=textarea]
+	{
+		height:10em;
+		width:100%;
+	}
+}
+.social-icons
+{
+.social
+{
+	border-radius:70px !important;
+}
+}
+.page-footer
+{
+	height:6em;
+}

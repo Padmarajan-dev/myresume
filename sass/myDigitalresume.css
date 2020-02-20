@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css?family=Galada|Great+Vibes|Quicksand|Ubuntu+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Bangers|Kite+One|Oleo+Script&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Slab|Lobster+Two&display=swap");
+.side {
+  height: 60em;
+  width: 100%;
+  margin-top: -10em;
+  z-index: 8;
+  opacity: 0.8;
+}
+.side li {
+  margin-top: 6em;
+}
+.side li a {
+  color: #fff8f8;
+  font-family: "Galada", cursive;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+.side li button {
+  border: 2.1px solid white !important;
+  border-radius: 50%;
+  font-size: 2.1em;
+}
+
+.skill-title {
+  color: #da9191;
+}
+
+.skill-level-line {
+  height: 0.5em;
+  border-radius: 50px;
+}
+
+.top {
+  background: url("../images/parllel1.jpg");
+  color: white;
+  height: 36em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.portfolio-box {
+  height: 18em;
+}
+.portfolio-box .content {
+  height: 17em;
+  background-color: rgba(10, 3, 3, 0.418);
+  width: 100% !important;
+  color: white;
+}
+.portfolio-box .content button:hover {
+  box-shadow: 3px 3px 5px black;
+  background-color: white;
+  color: black;
+}
+.portfolio-box:hover {
+  box-shadow: 3px 3px 5px black;
+}
+
+.header {
+  font-family: "Oleo Script", cursive;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+button {
+  background: none;
+  border: none;
+  color: white;
+}
+
+#cv:hover {
+  background: #d39f3f;
+}
+
+.portfolio-box .content button, #cv {
+  background: none;
+  border: 2px solid white;
+  color: white;
+  border-radius: 50px;
+  height: 3.8em;
+  font-weight: bold;
+}
+
+.education .yearspan {
+  height: 10em;
+  background-color: #378C3F;
+}
+.education .yearspan p {
+  color: white;
+  font-family: "Galada", cursive;
+  font-size: x-large;
+}
+.education .AboutEducation {
+  height: 10em;
+  box-shadow: 3px, 3px, 4px black;
+  background-color: white;
+  border: 1px solid grey;
+}
+.education .AboutEducation .title {
+  font-family: "Lobster Two", cursive;
+  font-size: 16px;
+}
+.education .AboutEducation .desc {
+  font-family: "Josefin Slab", serif;
+}
+
+.mail-box {
+  height: 24em;
+  border: 1px solid grey;
+  border-radius: 5px;
+  box-shadow: 2px, 2px, 4px grey;
+}
+.mail-box input[type=textarea] {
+  height: 10em;
+  width: 100%;
+}
+
+.social-icons .social {
+  border-radius: 70px !important;
+}
+
+.page-footer {
+  height: 6em;
+}
+
+/*# sourceMappingURL=myDigitalresume.css.map */
